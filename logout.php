@@ -1,0 +1,1 @@
+<?php include('include/db.php'); ?><?php session_start(); session_destroy(); header("Location:https://www.meatwale.com/");  ?>

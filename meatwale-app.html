@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<!-- <div class="container bg-3 text-center">    
+ 
+  <div class="row">
+    <div class="col-sm-8">
+ <div  style="background-image: url(bg.png); background-repeat: no-repeat; background-size: 100%;  width: 100%; padding: 21px;">
+<p>sdd  dsedes</p><p>sdd  dsedes</p><p>sdd  dsedes</p><p>sdd  dsedes</p><p>sdd  dsedes</p><p>sdd  dsedes</p><p>sdd  dsedes</p>
+    </div>
+    </div>
+    <div class="col-sm-4"> 
+ <div  style="background-image: url(bg.png); background-repeat: no-repeat; background-size: 100%;  width: 100%; padding: 21px;">
+<p>sdd  dsedes</p><p>sdd  dsedes</p><p>sdd  dsedes</p><p>sdd  dsedes</p><p>sdd  dsedes</p>
+    </div>
+    </div>
+   
+    
+  </div>
+</div><br> --->
+<style>
+.app-tax{
+	padding:60px;
+	color:#fff;
+	    font-family: 'Roboto Condensed',sans-serif;
+
+}
+.app-tax h1{
+	margin-top: 20px;
+	font-weight:600;
+	color:#fff;
+    font-family: 'Roboto Condensed',sans-serif;
+
+}
+.app-tax p{
+	    font-weight: 500;
+    color: #fff;
+    font-family: 'Roboto Condensed',sans-serif;
+    line-height: 29px;
+    font-size: 15px;
+    text-align: justify;
+	margin-bottom: 27px;
+
+}
+.darkbg3.bdr {
+    border-color: #b84200;
+}
+.darkbg3:hover, input.darkbg3:focus, textarea.darkbg3:focus {
+    background-color: #d54c00;
+}
+.pl30px {
+    padding-left: 30px;
+}
+.app-tax{
+	    padding: 52px 91px 10px 30px;
+}
+.app-icon {
+	margin-bottom:20px;
+}
+.app-icon{    margin-top: 74px;
+}
+
+
+
+
+.ac-bdr {
+    border: 1px solid #ccc;
+}
+.ac-mb10px {
+    margin-bottom: 10px;
+}
+.w80 {
+    width: 80%;
+}
+.p20px {
+    padding: 20px;
+}
+.ac-fl>*, .acac-fl>*>*, .fl {
+    float: left;
+}
+.dif {
+    color: #c30;
+}.fw {
+    padding-top: 30px;
+}
+.ffrc {
+    font-family: 'Roboto Condensed',sans-serif;
+}
+</style>
+<div class="container-fluid bg-3 text-center" style="background:#b31b27;">    
+  <div class="row">
+  
+  <div class="app" style="background-color:#930;"> 
+     <div class="col-md-6 col-xs-12">  
+       
+      <img src="images/download_app_image.png" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  <div class="col-md-6 col-xs-12"> 
+      <div class="app-tax">
+      <h1>Download Meatwale  App</h1>
+      <p>Hygiene and quality is the two things which we are committed to serve. Check your city and location and order now to avail offers.</p>
+      <div class="form">
+     <form>
+     <input type="text" id="mobile_number" class="input w100 p15px bsbb fl pl20px bdr bdrfff xxlarge" placeholder="Enter your Mobile No." maxlength="15" onkeypress="return isNumberKey(event);" onblur="validate_mobile();" style="border: 2px solid #082577;
+    width: 90%;
+    padding: 12px;">
+     </form>
+     <button type="button" id="send_link_button" class="mt20px darkbg3 white xxlarge b ffrc p12px ts0 bdr br5px pl30px pr30px fr mb20px" style="    background: #f35c07;
+    padding: 8px 15px;
+    font-size: 17px;
+    margin-top: 10px;
+    border-radius: 11px;
+    margin-left: 305px;
+    border: 2px solid #f35c05;">SEND APP LINK</button>
+      </div>
+      <div class="app-icon">
+      <img src="images/app.png">
+      </div>
+      </div>
+     
+    </div>
+   
+  </div>
+</div> 
+</div>
+ 
+<div class="container text-center fw">
+  <p class="tac ffrc lh13em gray" style="font-size:33px;">You can also download our app from <span class="dif">Google Play Store</span> directly.
+Just search for <span class="dif">"Meatwale.com"</span> in app store</p>
+<br><br><br>
+</div>
+
+</body>
+</html>
